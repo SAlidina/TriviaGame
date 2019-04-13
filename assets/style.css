@@ -1,0 +1,74 @@
+.bg { 
+  /* The image used */
+  background-image: url("background.png");
+
+  /* Full height */
+  height: 960px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.container {
+    height: 760px;
+    width: 760px;
+    padding: 20px;
+    margin-left: 50px;
+}
+.text-container {
+    background-color: antiquewhite;
+    padding: 20px;
+    opacity: 0.85;
+    filter: drop-shadow(0 0 0.75rem darkgreen);
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 20px;
+    width: 800px;
+
+}
+label {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+input{
+    margin-top: 10px;
+}
+#timer {
+    margin-bottom: 10px;
+    font-weight: bolder;
+    color: crimson;
+    font-size: 28px;
+}
+#questions {
+    line-height: 20px;
+}
+p {
+    font-weight: bold;
+}
+
+button {
+background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#submitButton {
+    margin-left: -200px;
+}
+#backButton {
+    margin-left: -120px;
+}
+#startButton {
+    margin-left: 300px;
+    margin-top: -80px;
+    padding: 15px 60px;
+    font-size: 48px;
+    font-weight: bold;
+}
